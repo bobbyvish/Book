@@ -1,0 +1,124 @@
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 1em;
+  }
+
+
+  .section-1 .row .col-md-6 .panel {
+    height: 60vmin;
+    width: initial;
+    position: initial;
+    padding: 15px;
+  }
+
+  .section-2 .cover {
+    background-position: -30vmin -18vmin;
+  }
+
+  .numbers .rect {
+    height: 5rem;
+    width: 7rem;
+  }
+
+  .numbers .rect h1 {
+    font-size: 1.5rem;
+
+  }
+
+  .numbers .rect p {
+    font-size: 2vmin;
+  }
+
+  .section-3 {
+    height: inherit;
+    padding: 10vmin !important;
+
+  }
+
+  .section-3 .row h1 {
+    padding: 6vmin 4vmin;
+  }
+
+  .section-3 .row .col-md-6 {
+    text-align: center !important;
+  }
+
+  .section-3 .desktop i {
+    font-size: 8vmin;
+  }
+
+  .section-4 .carousel-item {
+    padding-left: 0.1rem;
+  }
+
+  .section-4 .team {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .section-4 .carousel-inner {
+    width: 24rem;
+  }
+
+  footer {
+    padding: 5vmin;
+  }
+
+  footer .column i+i {
+    padding: 0 0.2em;
+  }
+
+}
+
+@media only screen and (max-width:425px) {
+  header .row .col-md-5 {
+    padding: 10px 35px;
+
+  }
+
+  header .row .col-md-7 {
+    padding: inherit;
+    padding-top: 20px;
+  }
+
+  header .row .col-md-7 h1 {
+    font-size: 5vmin;
+  }
+
+  .section-1 .row .col-md-6 .panel {
+    height: 35rem;
+    padding: 10vmin;
+    margin: 9vmin;
+  }
+
+  footer {
+    padding: 40px;
+  }
+
+  footer .col-md-2 {
+    margin-top: 5vmin;
+  }
+}
+
+@media only screen and (max-width:375px) {
+  header .row .col-md-7 {
+    padding: inherit;
+    padding-top: 15vmin;
+  }
+
+  .section-4 .card {
+    width: 18rem;
+  }
+
+  .section-4 .carousel-inner {
+    margin-left: -5vmin;
+  }
+}
+
+@media only screen and (max-width:320px) {
+
+  .section-4 .carousel-inner {
+    margin-left: -15vmin;
+  }
+}
